@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Список задач</title>
+</head>
+<body>
+  <div id="myDIV" class="header">
+    <h2>Список для задач</h2>
+    <div class="form">
+      <input type="text" id="myInput" placeholder="Введите задачи для запоминания...">
+      <span onclick="addElement()" class="addBtn">Добавить</span>
+      <span id="cB" class="completeBtn">Выполненные</span>
+    </div>
+  </div>
+
+<ul id="myUL">
+  <li>Пойти в зал</li>
+  <li class="checked">Сделать фронт для todo list</li>
+  <li>Убрать</li>
+  <li>Почитать книгу</li>
+  <li>Подстричься</li>
+</ul>
+
+  <script src="src/index.js"></script>
+</body>
+</html>
